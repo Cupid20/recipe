@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 400;
+    line-height: 1.5;
+    background-color: #f3e5d8;
+    color: #495057;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-top: 2.0rem;
+    margin-bottom: 1.0rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2.0rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 700px;
+    margin: 8rem auto;
+    background-color: #ffffff;
+    border-radius: 13px;
+}
+
+.content-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 650px;
+    margin: 2rem auto;
+    border-radius: 13px;
+}
+
+.h3-list {
+    margin-left: 2.5rem;
+    background-color: #f3c2e2;
+    padding: 1rem 2rem;
+    margin-top: 2.1rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+
+
+.color-headings {
+    color: #825168;
+}
+
+.color-heading {
+    color: #c36f20;
+}
+
+.font-list {
+    font-weight: 700;
+}
+
+.table-div {
+    margin-bottom: 1.5rem;
+}
+
+.table-paragraph {
+    margin-bottom: 1.0rem;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table td {
+    padding: 0.8rem 0;
+}
+
+.nutrition-table td:first-child {
+    padding-left: 2rem;
+}
+
+.nutrition-table td:last-child {
+    text-align: last;
+}
